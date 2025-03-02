@@ -126,16 +126,22 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">First Post
+    <h2 class="entry-hint-parent">在 Mac 下使用 Hugo 写 Blog 的安装与部署
     </h2>
   </header>
   <div class="entry-content">
-    <p>Welcome to My Blog Hello everyone! This is my very first post using Hugo and the PaperMod theme. I’m excited to start this blogging journey and share my thoughts, experiences, and projects with you.
-Stay tuned for more updates, and feel free to leave your feedback or comments!
-</p>
+    <p>在 Mac 下使用 Hugo 写 Blog 的安装与部署 本文介绍如何在 Mac 上安装 Hugo、编写博客并部署到 GitHub Pages，整个过程简单易懂。
+1. 安装 Hugo 在终端中执行以下命令安装 Hugo：
+brew install hugo 2. 新建 Hugo 站点 创建一个新站点，并指定使用 YAML 格式配置
+hugo new site wctd_blog --format yaml 初始化 Git 仓库：
+git init 添加主题（这里使用 hugo-PaperMod）：
+git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/hugo-PaperMod 创建第一篇博客文章：
+hugo new posts/first-post.md 3. 撰写博客内容 使用编辑器（如 vim）或 vscode 打开并编辑文章文件：
+vim posts/first-post.md 4. 本地预览 hugo server -D 5. 配置 GitHub 远程仓库 git remote add origin https://github.com/oooshuang/blog.git
+...</p>
   </div>
   <footer class="entry-footer"><span title='2025-03-02 14:07:04 +0100 CET'>March 2, 2025</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to First Post" href="http://localhost:1313/posts/first-post/"></a>
+  <a class="entry-link" aria-label="post link to 在 Mac 下使用 Hugo 写 Blog 的安装与部署" href="http://localhost:1313/posts/first-post/"></a>
 </article>
     </main>
     

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>General on 听无常,胡坦荡</title>
-    <link>http://localhost:1313/categories/general/</link>
-    <description>Recent content in General on 听无常,胡坦荡</description>
+    <title>Hugo on 听无常,胡坦荡</title>
+    <link>http://localhost:1313/tags/hugo/</link>
+    <description>Recent content in Hugo on 听无常,胡坦荡</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 02 Mar 2025 14:07:04 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/general/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在 Mac 下使用 Hugo 写 Blog 的安装与部署</title>
       <link>http://localhost:1313/posts/first-post/</link>
