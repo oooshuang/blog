@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>听无常,胡坦荡</title>
-    <link>http://localhost:1313/</link>
+    <link>https://yourdomain.com/</link>
     <description>Recent content on 听无常,胡坦荡</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 02 Mar 2025 14:07:04 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yourdomain.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在 Mac 下使用 Hugo 写 Blog 的安装与部署</title>
-      <link>http://localhost:1313/posts/install-hugo/</link>
+      <link>https://yourdomain.com/posts/install-hugo/</link>
       <pubDate>Sun, 02 Mar 2025 14:07:04 +0100</pubDate>
-      <guid>http://localhost:1313/posts/install-hugo/</guid>
+      <guid>https://yourdomain.com/posts/install-hugo/</guid>
       <description>&lt;p&gt;本文介绍如何在 Mac 上安装 Hugo、编写博客并部署到 GitHub Pages，整个过程简单易懂。&lt;/p&gt;
 &lt;h2 id=&#34;一-环境准备与安装&#34;&gt;一. 环境准备与安装&lt;/h2&gt;
 &lt;h3 id=&#34;a-安装-hugo&#34;&gt;A. 安装 Hugo&lt;/h3&gt;
