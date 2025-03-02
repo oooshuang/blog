@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>First Categories on 听无常,胡坦荡</title>
-    <link>https://yourdomain.com/tags/first-categories/</link>
+    <link>http://localhost:1313/tags/first-categories/</link>
     <description>Recent content in First Categories on 听无常,胡坦荡</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 02 Mar 2025 14:07:04 +0100</lastBuildDate>
-    <atom:link href="https://yourdomain.com/tags/first-categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/first-categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在 Mac 下使用 Hugo 写 Blog 的安装与部署</title>
-      <link>https://yourdomain.com/posts/install-hugo/</link>
+      <link>http://localhost:1313/posts/install-hugo/</link>
       <pubDate>Sun, 02 Mar 2025 14:07:04 +0100</pubDate>
-      <guid>https://yourdomain.com/posts/install-hugo/</guid>
+      <guid>http://localhost:1313/posts/install-hugo/</guid>
       <description>&lt;p&gt;本文介绍如何在 Mac 上安装 Hugo、编写博客并部署到 GitHub Pages，整个过程简单易懂。&lt;/p&gt;
 &lt;h2 id=&#34;一-环境准备与安装&#34;&gt;一. 环境准备与安装&lt;/h2&gt;
-&lt;h3 id=&#34;a-安装-hugo&#34;&gt;A. 安装 Hugo&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;A. 安装 Hugo&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew install hugo
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;b-创建站点&#34;&gt;B. 创建站点&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;B. 创建站点&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;新建 Hugo 站点（使用 YAML 格式配置）&lt;/li&gt;
 &lt;/ol&gt;
@@ -26,43 +26,22 @@
 &lt;li&gt;初始化 Git 仓库&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;c-配置主题&#34;&gt;C. 配置主题&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;C. 配置主题&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;添加 PaperMod 主题&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add --depth&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; https://github.com/adityatelange/hugo-PaperMod.git themes/hugo-PaperMod
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;二-编写-blog-与预览&#34;&gt;二. 编写 blog 与预览&lt;/h2&gt;
-&lt;h3 id=&#34;a-创建要写的文章&#34;&gt;A. 创建要写的文章&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;A. 创建要写的文章&lt;/strong&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new posts/first-post.md
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;b-编辑博客内容&#34;&gt;B. 编辑博客内容&lt;/h3&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;B. 编辑博客内容&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;使用编辑器（vim 或 VSCode）编辑文章&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;vim posts/first-post.md
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;c-本地预览&#34;&gt;C. 本地预览&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;C. 本地预览&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;启动本地服务器查看效果&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server -D
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;三-部署与发布&#34;&gt;三. 部署与发布&lt;/h2&gt;
-&lt;h4 id=&#34;a-github-仓库配置&#34;&gt;A. GitHub 仓库配置&lt;/h4&gt;
-&lt;ol&gt;
-&lt;li&gt;添加远程仓库&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote add origin https://github.com/oooshuang/blog.git
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;b-github-pages-设置&#34;&gt;B. GitHub Pages 设置&lt;/h4&gt;
-&lt;ol&gt;
-&lt;li&gt;登录 GitHub，进入 blog 仓库&lt;/li&gt;
-&lt;li&gt;进入 Settings → Pages 页面&lt;/li&gt;
-&lt;li&gt;选择 Source 为 GitHub Actions&lt;/li&gt;
-&lt;li&gt;配置 Hugo 工作流，确保 HUGO_VERSION 与本地版本一致&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h4 id=&#34;c-发布与访问&#34;&gt;C. 发布与访问&lt;/h4&gt;
-&lt;ol&gt;
-&lt;li&gt;推送到 GitHub 仓库&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push -u origin main
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;访问博客
-完成部署后，通过以下链接访问：
-&lt;a href=&#34;https://oooshuang.github.io/blog/posts/first-post/&#34;&gt;https://oooshuang.github.io/blog/posts/first-post/&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</description>
+&lt;p&gt;&lt;strong&gt;A. GitHub 仓库配置&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

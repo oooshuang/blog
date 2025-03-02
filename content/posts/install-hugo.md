@@ -13,13 +13,13 @@ categories:
 
 ## 一. 环境准备与安装
 
-### A. 安装 Hugo
+**A. 安装 Hugo**
 
 ```bash
 brew install hugo
 ```
 
-### B. 创建站点
+**B. 创建站点**
 
 1. 新建 Hugo 站点（使用 YAML 格式配置）
 
@@ -33,7 +33,7 @@ hugo new site wctd_blog --format yaml
 git init
 ```
 
-### C. 配置主题
+**C. 配置主题**
 
 1. 添加 PaperMod 主题
 
@@ -44,14 +44,14 @@ git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git t
 
 ## 二. 编写 blog 与预览
 
-### A. 创建要写的文章
+**A. 创建要写的文章**
 
 ```
 hugo new posts/first-post.md
 
 ```
 
-### B. 编辑博客内容
+**B. 编辑博客内容**
 
 使用编辑器（vim 或 VSCode）编辑文章
 
@@ -60,7 +60,7 @@ vim posts/first-post.md
 
 ```
 
-### C. 本地预览
+**C. 本地预览**
 
 启动本地服务器查看效果
 
@@ -71,7 +71,7 @@ hugo server -D
 
 ## 三. 部署与发布
 
-#### A. GitHub 仓库配置
+**A. GitHub 仓库配置**
 
 1. 添加远程仓库
 
@@ -80,14 +80,14 @@ git remote add origin https://github.com/oooshuang/blog.git
 
 ```
 
-#### B. GitHub Pages 设置
+**B. GitHub Pages 设置**
 
 1. 登录 GitHub，进入 blog 仓库
 2. 进入 Settings → Pages 页面
 3. 选择 Source 为 GitHub Actions
 4. 配置 Hugo 工作流，确保 HUGO_VERSION 与本地版本一致
 
-#### C. 发布与访问
+**C. 发布与访问**
 
 1. 推送到 GitHub 仓库
 
