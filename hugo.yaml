@@ -1,0 +1,29 @@
+baseURL: "https://yourdomain.com/"
+title: "听无常,胡坦荡"
+languageCode: "zh-cn"
+theme: "hugo-PaperMod"
+pagination:
+  pagerSize: 5
+
+menu:
+  main:
+    - identifier: archives
+      name: "归档"
+      url: "/archives/"
+      weight: 10
+    - identifier: categories
+      name: "分类"
+      url: "/categories/"
+      weight: 20
+    - identifier: tags
+      name: "标签"
+      url: "/tags/"
+      weight: 30
+
+params:
+  # 可根据文档定制更多内容，如首页介绍、社交链接、阅读时间显示等
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
